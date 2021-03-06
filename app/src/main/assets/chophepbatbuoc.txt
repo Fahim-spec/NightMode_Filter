@@ -1,0 +1,4 @@
+ Việc cho phép là bắt buộc.
+ 1. Nhấn nút và mở các thiết lập cho phép.
+ 2. Thiết lập sự cho phép.
+ 3. Bấm vào nút quay lại.

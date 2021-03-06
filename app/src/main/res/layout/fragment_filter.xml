@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:background="@color/bg_filter"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_80sdp"
+        android:scaleType="fitXY"
+        android:src="@drawable/bg_header" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_80sdp"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_15sdp"
+        android:background="@drawable/bg_filter">
+
+        <Button
+
+            android:id="@+id/btnTat"
+            android:layout_margin="@dimen/_5sdp"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/off" />
+
+        <Button
+            android:id="@+id/btnMo"
+            android:layout_margin="@dimen/_5sdp"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/on" />
+
+        <Button
+            android:id="@+id/btnLichTrinh"
+            android:layout_margin="@dimen/_5sdp"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/lich_trinh" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_15sdp"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_120sdp"
+        android:background="@drawable/bg_filter"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textStyle="bold"
+                android:padding="@dimen/_10sdp"
+                android:textColor="@color/color_black"
+                android:text="@string/cuong_do_bo_loc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/txtCuongDoLoc"
+                android:padding="@dimen/_10sdp"
+                android:textSize="@dimen/_18sdp"
+                android:text="80%"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:src="@drawable/ic_intentity_filter"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp" />
+            <SeekBar
+                android:id="@+id/skCuongDoLoc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                 />
+        </LinearLayout>
+        <CheckBox
+            android:id="@+id/cbNightMode"
+            android:layout_margin="@dimen/_10sdp"
+            android:text="@string/che_do_ban_dem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:textColor="@color/color_black"
+            android:textStyle="bold"
+            android:textSize="@dimen/_12sdp"
+            android:text="@string/bo_loc_mau_sac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerViewFilter"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp">
+
+        </android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name">Bộ lọc màn hình</string>
+    <string name="bo_loc_man_hinh">Bộ lọc màn hình</string>
+
+    <string name="cai_dat">Cài đặt</string>
+    <string name="danh_gia">Đánh giá</string>
+    <string name="chia_se">Chia sẻ</string>
+    <string name="thong_tin">Thông tin</string>
+
+    <string name="name">Bluelight filter</string>
+
+    <string name="bo_loc">Bộ lọc</string>
+    <string name="lich_trinh">Lịch trình</string>
+    <string name="phim_tat">Phím tắt</string>
+    <string name="on">Mở</string>
+    <string name="off">Tắt</string>
+
+    <string name="cuong_do_bo_loc">Cường độ bộ lọc:</string>
+    <string name="che_do_ban_dem">Chế độ ban đêm</string>
+    <string name="bo_loc_mau_sac">Bộ lọc màu sắc</string>
+    <string name="bat_dau">Bắt đầu</string>
+    <string name="ket_thuc">Kết thúc</string>
+    <string name="todo">TODO</string>
+    <string name="huy">Hủy</string>
+    <string name="dong_y">Đồng ý</string>
+
+    <string name="enable_filter">Kích hoạt bộ lọc</string>
+    <string name="vo_hieu_bo_loc">Vô hiệu hóa bộ lọc</string>
+    <string name="kich_hoat_vo_hieu">Kích hoạt/Vô hiệu hóa bộ lọc</string>
+    <string name="nam">5%</string>
+    <string name="muoi">10%</string>
+    <string name="muoi_lam">15%</string>
+    <string name="hai_muoi">20%</string>
+    <string name="hai_nam">25%</string>
+    <string name="ba_muoi">30%</string>
+    <string name="ba_nam">35%</string>
+    <string name="bon_muoi">40%</string>
+    <string name="bon_nam">45%</string>
+    <string name="nam_muoi">50%</string>
+    <string name="nam_nam">55%</string>
+    <string name="sau_muoi">60%</string>
+    <string name="sau_nam">65%</string>
+    <string name="bay_muoi">70%</string>
+    <string name="bay_nam">75%</string>
+    <string name="tam_muoi">80%</string>
+    <string name="tam_nam">85%</string>
+    <string name="chin_muoi">90%</string>
+    <string name="chin_nam">95%</string>
+    <string name="choose">Choose one</string>
+
+    <string name="tac_gia">Tác giả</string>
+    <string name="hdp_solutions">Your Company</string>
+    <string name="chinh_sach_bao_mat">Chính sách bảo mật</string>
+    <string name="link_chinh_sach_bao_mat">http://yourprivacypolicy.com</string>
+    <string name="link_home">http://yourdomain.com/</string>
+    <string name="email">Email</string>
+    <string name="EmailFeedback">yourfeedbackemail@gmail.com</string>
+    <string name="ok">OK</string>
+
+    <string name="feedback_app">Phản hồi app Bộ lọc màn hình</string>
+    <string name="send_feesback">Gửi phản hồi</string>
+
+    <string name="thong_bao_noti">Thông báo Notification</string>
+    <string name="che_do">Chế độ</string>
+    <string name="anh_chup">Ảnh chụp màn hình không có bộ lọc</string>
+    <string name="do_mo_man_hinh">Độ mờ màn hình:</string>
+    <string name="cai_dat_hen_gio">Cài đặt bộ hẹn giờ tự động</string>
+    <string name="tam_ngung">Tạm ngừng 60 giây</string>
+
+    <string name="hiren_thi_thong_bao">Hiển thị thông báo</string>
+    <string name="luon_luon">Luôn luôn</string>
+    <string name="chon_noi_dung_noti">Chọn nội dung thông báo:</string>
+    <string name="bo_loc_man_hinh_giam_mo">Bộ lọc màn hình giảm mờ mắt</string>
+    <string name="bo_loc_man_hinh_giam_moi">Bộ lọc màn hình giảm mỏi mắt</string>
+    <string name="nhan_vo_hieu_hoa">Nhấn vào đây để vô hiệu hóa bộ lọc</string>
+    <string name="tab_here">Tap here to disable filter</string>
+
+    <string name="khi_bat_bo_loc">Khi bật bộ lọc</string>
+    <string name="tat">Tắt</string>
+    <string name="chon_che_do">Chọn chế độ</string>
+    <string name="sang">Sáng</string>
+    <string name="toi">Tối</string>
+
+    <string name="dieu_khoan_dich_vu">Điều khoản dịch vụ</string>
+    <string name="thoat">Thoát</string>
+    <string name="mo">Mở</string>
+
+    <string name="xoa_thanh_cong">Xóa thành công</string>
+    <string name="xoa_that_bai">Xóa thất bại</string>
+    <string name="khong">0</string>
+    <string name="phan_tram">%</string>
+    <string name="toast_mausac">Đã áp dụng bộ lọc màu ánh sáng</string>
+
+    <string name="anh_sang_mat_trang">mặt trăng</string>
+    <string name="anh_sang_den_nen">đèn nến</string>
+    <string name="anh_sang_binh_minh">bình minh</string>
+    <string name="anh_sang_den_soi_dot">đèn sợi đốt</string>
+    <string name="anh_sang_den_huynh_quang">đèn huỳnh quang</string>
+    <string name="anh_sang_trong_rung">trong rừng</string>
+    <string name="anh_sang_mat_troi">mặt trời</string>
+
+    <string name="toas_on">Đã kích hoạt bộ lọc</string>
+    <string name="toas_off">Đã vô hiệu hóa bộ lọc</string>
+
+    <string name="thanh_cong">Thành công</string>
+    <string name="that_bai">Thất bại</string>
+
+    <string name="thoi_gian_bat_dau">Thời gian bắt đầu:</string>
+    <string name="thoi_gian_ket_thuc">Thời gian kết thúc:</string>
+    <string name="toas_chua_chon_time">Bạn chưa chọn thời gian bắt đầu hoặc thời gian kết thúc</string>
+    <string name="chon_khoang_tg">"Bạn cần chọn mốc thời gian trong khoảng từ</string>
+    <string name="den">Đến</string>
+    <string name="doublebacktoexit">Ấn lại để thoát</string>
+</resources>

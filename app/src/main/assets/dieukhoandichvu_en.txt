@@ -1,0 +1,9 @@
+Thank you for installing "Eye strain screen filter".
+
+Enjoy the "Eye strain relief screen filter" with the following points of interest:
+
+1. When the filter is activated, you cannot install applications from App Stores other than Google Play Store. Turn off the filter manually when you install them.
+
+2. If the application is installed in the SD card, it will not turn on automatically after booting.
+
+3. This app will change colors on your screen. When taking a screenshot, please turn off the filter

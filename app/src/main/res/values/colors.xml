@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/color_appbar</color>
+    <color name="colorPrimaryDark">@color/color_appbar</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="color_appbar">#344185</color>
+    <color name="color_while">#FFFFFF</color>
+    <color name="white_smoke">#BEBEBE</color>
+    <color name="bg_filter">#ececec</color>
+    <color name="color_black">#000000</color>
+
+    <color name="color_blue">#239c7b</color>
+    <color name="color_green">#42c2d5</color>
+    <color name="color_red">#bd0600</color>
+    <color name="color_chedo">#638aff</color>
+    <color name="gray">#ececec</color>
+</resources>

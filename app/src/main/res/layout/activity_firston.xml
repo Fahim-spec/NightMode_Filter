@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/color_appbar">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:text="@string/bo_loc_man_hinh_giam_moi"
+            android:textColor="@color/color_while"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold" />
+    </android.support.v7.widget.Toolbar>
+    <FrameLayout
+        android:id="@+id/page1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_margin="@dimen/_10sdp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/ic_enable_disable_filter"
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp" />
+            <TextView
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_gravity="center"
+                android:textColor="@color/color_black"
+                android:textSize="@dimen/_18sdp"
+                android:text="@string/dieu_khoan_dich_vu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView
+            android:padding="@dimen/_3sdp"
+            android:textSize="@dimen/_13sdp"
+            android:id="@+id/txtDieuKhoanDichVu"
+            android:layout_marginTop="@dimen/_60sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_gravity="bottom"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+           <TextView
+               android:id="@+id/txtHuy"
+               android:gravity="center"
+               android:textStyle="bold"
+               android:layout_margin="@dimen/_5sdp"
+               android:textColor="@color/color_while"
+               android:background="#757575"
+               android:layout_weight="1"
+               android:text="@string/huy"
+               android:layout_width="@dimen/_30sdp"
+               android:layout_height="@dimen/_30sdp" />
+            <TextView
+                android:id="@+id/txtDongY"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_margin="@dimen/_5sdp"
+                android:textColor="@color/color_while"
+                android:background="#4286f5"
+                android:layout_weight="1"
+                android:text="@string/dong_y"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp" />
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout
+        android:visibility="gone"
+        android:id="@+id/page2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_margin="@dimen/_10sdp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/ic_enable_disable_filter"
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp" />
+            <TextView
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_gravity="center"
+                android:textColor="@color/color_black"
+                android:textSize="@dimen/_18sdp"
+                android:text="@string/bo_loc_man_hinh_giam_moi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/txtBoLoc"
+            android:padding="@dimen/_3sdp"
+            android:textSize="@dimen/_13sdp"
+            android:layout_marginTop="@dimen/_60sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/txtOK"
+                android:layout_gravity="bottom|right"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_margin="@dimen/_5sdp"
+                android:textColor="@color/color_while"
+                android:background="#4286f5"
+                android:text="@string/ok"
+                android:layout_width="@dimen/_90sdp"
+                android:layout_height="@dimen/_30sdp" />
+
+    </FrameLayout>
+    <FrameLayout
+        android:visibility="gone"
+        android:id="@+id/page3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:padding="@dimen/_7sdp"
+            android:textSize="@dimen/_13sdp"
+            android:id="@+id/txtBatBuoc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_gravity="bottom"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/txtThoat"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_margin="@dimen/_5sdp"
+                android:textColor="@color/color_while"
+                android:background="#757575"
+                android:layout_weight="1"
+                android:text="@string/thoat"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp" />
+            <TextView
+                android:id="@+id/txtMo"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_margin="@dimen/_5sdp"
+                android:textColor="@color/color_while"
+                android:background="#4286f5"
+                android:layout_weight="1"
+                android:text="@string/mo"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

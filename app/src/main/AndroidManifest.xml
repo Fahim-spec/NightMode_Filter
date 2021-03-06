@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.android.tools.bluelightfiltereyecarenightmode">
+
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+
+
+    <application
+        android:name="com.android.tools.bluelightfiltereyecarenightmode.App"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_luncherlight"
+        android:label="@string/app_name"
+
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-2044360008937062~7224800971"/>
+
+        <activity android:name="com.android.tools.bluelightfiltereyecarenightmode.activity.MainActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name="com.android.tools.bluelightfiltereyecarenightmode.activity.SettingActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.android.tools.bluelightfiltereyecarenightmode.activity.NotificationActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name="com.android.tools.bluelightfiltereyecarenightmode.activity.FirstOnActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.android.tools.bluelightfiltereyecarenightmode.activity.UpdateTimeFillterActivity"
+            android:screenOrientation="portrait"/>
+
+        <service
+            android:name="com.android.tools.bluelightfiltereyecarenightmode.ServiceBackground"
+            android:stopWithTask="false"
+            android:enabled="true"
+            android:process=":externalProcess"
+            android:exported="false" />
+        <receiver android:name="com.android.tools.bluelightfiltereyecarenightmode.NotificationListener"/>
+
+    </application>
+</manifest>

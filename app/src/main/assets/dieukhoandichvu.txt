@@ -1,0 +1,9 @@
+Cảm ơn bạn đã cài đặt" Bộ lọc màn hình giảm mỏi mắt".
+
+Hãy tận hưởng "Bộ lọc màn hình giảm mỏi mắt" với những điểm chú ý mà bạn phải quan tâm sau:
+
+1. Khi bộ lọc được kích hoạt, bạn không thể cài đặt các ứng dụng từ App Stores khác ngoài Google Play Store. Hãy tắt bộ lọc bằng tay khi bạn cài đặt chúng.
+
+2. Nếu ứng dụng được cài trong thẻ SD, nó sẽ không bật tự động sau khi khởi động.
+
+3. Ứng dụng này sẽ thay đổi màu sắc trên màn hình của bạn. khi chụp màn hình, mời bạn hãy tắt bộ lọc
